@@ -28,7 +28,7 @@ try {
 }
 
 // ── Routes ──────────────────────────────────────────────────────────────────
-app.use('/api/auth',       require('./routes/auth'));
+app.use('/api/auth',       require('./routes/auths'));
 app.use('/api/detections', require('./routes/detections'));
 app.use('/api/recordings', require('./routes/recordings'));
 
